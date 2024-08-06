@@ -1,5 +1,5 @@
 import { HomepageHeroWrapper } from "./hero_elements";
-import { HeroTitle } from "../../../globalTypography";
+import { HeaderTitle } from "../../../globalTypography";
 import MainSearchBar from "../../homepage_searchbar/MainSearchBar";
 import heroBg from "../../../assets/heroBG.jpg"; 
 
@@ -7,10 +7,10 @@ function HomepageHero() {
     return(
         <>
             <HomepageHeroWrapper style={{ backgroundImage:`url(${ heroBg })`}}>
-                <HeroTitle className='homepage'>
+                <HeaderTitle className='homepage'>
                     Book & Experience Amazing <br/>
                     Tiny Houses
-                </HeroTitle>
+                </HeaderTitle>
                 <MainSearchBar />
             </HomepageHeroWrapper>
         </>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const SearchBarWrapper = styled.div`
@@ -39,4 +40,11 @@ export const SearchButtonWrapper = styled.div`
     border-top-right-radius: 2rem; 
     border-bottom-right-radius: 2rem; 
     border-left: 1px solid var(--grey1); 
+`
+
+export const SearchButtonText = styled(Link)`
+    color: var(--black); 
+    font-family: 'Source Sans 3';
+    font-size: 1.3125rem; 
+    text-decoration: none; 
 `

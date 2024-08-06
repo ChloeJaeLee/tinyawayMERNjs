@@ -38,8 +38,7 @@ function App() {
       <Route path='escapes/grampians' element={ <GrampiansPage /> } />
       <Route path='escapes/lazarus' element={ <LazarusPage /> } />
     </Routes>
-  )
-}
+)}
 
 export default App; 
 

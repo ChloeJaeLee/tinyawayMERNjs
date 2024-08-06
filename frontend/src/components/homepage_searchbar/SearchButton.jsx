@@ -1,10 +1,9 @@
-import { SearchText } from "../../globalTypography";
-import { SearchButtonWrapper } from "./searchbar_elements";
+import { SearchButtonText, SearchButtonWrapper } from "./searchbar_elements";
 
 function SearchButton() {
     return(
         <SearchButtonWrapper>
-            <SearchText>SEARCH</SearchText>
+            <SearchButtonText to='/destinations'>SEARCH</SearchButtonText>
         </SearchButtonWrapper>
     )
 }
