@@ -51,5 +51,5 @@ export const HoverOption = styled.div`
     justify-content: center; 
     padding-right: 60px; 
     margin: 10px 0px; 
-    border-right: 1px solid var(--grey2); 
+    border-right: 1px solid var(--grey1); 
 `

@@ -12,8 +12,18 @@ export const HeaderTitle = styled.h1`
     }
 `
 
-export const SearchText = styled.p`
-    color: var(--grey3); 
-    font-family: 'Source Sans 3';
-    font-size: 1.3125rem; 
+export const SectionHeader = styled.h1`
+    color: var(--grey4); 
+    font-size: 4rem; 
+    font-family: 'Work Sans';
+    font-weight: 600; 
+    margin-top: 50px; 
+    margin-bottom: 18px; 
+`
+
+export const SectionSubtitle = styled.p`
+    color: var(--black); 
+    font-size: 1.25rem;
+    font-family: 'Source Sans 3'; 
+    margin-bottom: 55px; 
 `

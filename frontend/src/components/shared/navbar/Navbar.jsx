@@ -12,7 +12,15 @@ function Navbar() {
 
     const toggleBurger = () => {
         setSeeBurger(!seeBurger); 
-    }
+        if (!seeBurger) {
+            // Disable scrolling
+            document.body.classList.add('no-scroll');
+        } else {
+            // Enable scrolling
+            document.body.classList.remove('no-scroll');
+        }
+    };
+    
 
     return(
         <>
