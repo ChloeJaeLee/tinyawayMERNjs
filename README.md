@@ -5,6 +5,7 @@
  - MongoDB 
  - Express 
  - Nodemon 
+ - cors
 
 ###### Frontend 
  - React 
