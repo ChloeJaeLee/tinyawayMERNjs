@@ -1,0 +1,1 @@
+export const apiAllStates = 'http://localhost:4000/api/findStates'

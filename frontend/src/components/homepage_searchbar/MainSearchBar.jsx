@@ -3,6 +3,7 @@ import { SearchBarWrapper, SubMenusWrapper } from "./searchbar_elements";
 import CountrySubMenu from "./searchbar_submenus/submenu_countries/CountrySubMenu";
 import SearchButton from "./SearchButton";
 import SearchField from "./SearchField";
+import StateSubMenu from "./searchbar_submenus/submenu_states/StateSubMenu";
 
 function MainSearchBar() {
     const [seeCountries, setSeeCountries] = useState(false); 
@@ -59,6 +60,10 @@ function MainSearchBar() {
         <SubMenusWrapper>
             {   seeCountries &&
                     <CountrySubMenu chooseCountry={ chooseCountry }/>
+            }
+            {
+                seeState && 
+                    <StateSubMenu selectedCountry={ selectedCountry }/> 
             }
         </SubMenusWrapper>
         </>
